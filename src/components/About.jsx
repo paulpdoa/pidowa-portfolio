@@ -33,7 +33,7 @@ const About = () => {
                     I am a Technical Consultant specializing in core banking technologies, with hands-on experience in Temenos T24 and currently expanding my expertise through formal training in Avaloq Banking Suite. 
                     With over 3 years of industry experience, I’ve worked directly with banking operations, system configurations, and technical analysis helping financial institutions streamline processes and enhance system performance.
                 </p>
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                <div className="grid grid-cols- gap-6 md:grid-cols-2">
                     <div className={`bg-gradient-to-br ${theme === 'dark' ? 'bg-gray-800' : 'from-blue-50 to-blue-100'} p-6 sm:p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 ease-in-out border-l-4 border-blue-500`}>
                         <h3 className="text-2xl sm:text-3xl font-bold mb-5 text-blue-900 flex items-center gap-3">
                             <span className={`text-3xl ${theme === 'dark' ? 'text-blue-400' : 'text-blue-600'}`}>💼</span>Skills

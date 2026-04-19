@@ -20,7 +20,7 @@ const Header = () => {
         </div>
 
         <div className="flex-1 min-w-0 w-full">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div className="flex sm:flex-row sm:items-center justify-between gap-3">
             <div className="flex items-center gap-2 min-w-0">
               <h1 className="text-xl sm:text-2xl font-bold truncate">Paul Andres</h1>
               <svg
@@ -69,19 +69,19 @@ const Header = () => {
           </p>
 
           <div className="mt-2">
-            <p className="text-base sm:text-lg md:text-lg lg:text-[20px]">
+            <p className="text-sm sm:text-lg md:text-lg lg:text-[20px]">
               Developer <span className="text-gray-400 dark:text-gray-500">\</span> Core Banking Technical Consultant
             </p>
           </div>
 
           <div className="flex flex-wrap items-center mt-3 gap-2">
-            <p className={`w-full sm:w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
+            <p className={`w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
               polopdoandres@gmail.com
             </p>
-            <p className={`w-full sm:w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
+            <p className={`w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
               +639214231007
             </p>
-            <p className={`w-full sm:w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
+            <p className={`w-auto text-sm sm:text-base p-2 rounded-lg transition-colors duration-300 cursor-pointer ${theme === 'light' ? 'bg-slate-100 hover:bg-slate-200' : 'bg-slate-800 hover:bg-slate-700'}`}>
               linkedin.com/in/paul-andres174747210/
             </p>
           </div>
