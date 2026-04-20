@@ -6,9 +6,9 @@ export default function WorkExperience() {
   const experiences = [
     {
       id: 1,
-      position: 'Business Archictecture Senior Analyst',
+      position: 'Business Architecture Senior Analyst',
       company: 'Accenture Philippines',
-      duration: 'October 2025 - Present',
+      duration: 'November 2025 - Present',
       description: 'Undergoing comprehensive training for Avaloq Banking Suite while developing banking solutions. Working on implementing and optimizing Avaloq-based applications for financial institutions.',
       skills: ['Avaloq Scripting', 'Core Banking System', 'Avaloq Banking Suite', 'Technical Analysis', 'Problem Solving', 'Programming', 'SQL']
     },
