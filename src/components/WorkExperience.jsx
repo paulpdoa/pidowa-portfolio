@@ -5,34 +5,37 @@ export default function WorkExperience() {
   const { theme } = useContext(ThemeContext);
   const experiences = [
     {
-      id: 1,
+      position: 'Software Engineer',
+      company: 'Ascalda PTE Ltd.',
+      duration: 'September 2026 - Present',
+      description: 'Working on implementing and optimizing Avaloq-based applications for financial institutions.',
+      skills: ['Avaloq Scripting', 'Core Banking System', 'Avaloq Banking Suite', 'Technical Analysis', 'Problem Solving', 'Programming', 'SQL']
+    },
+    {
       position: 'Business Architecture Senior Analyst',
       company: 'Accenture Philippines',
-      duration: 'November 2025 - Present',
+      duration: 'November 2025 - September 2026',
       description: 'Undergoing comprehensive training for Avaloq Banking Suite while developing banking solutions. Working on implementing and optimizing Avaloq-based applications for financial institutions.',
       skills: ['Avaloq Scripting', 'Core Banking System', 'Avaloq Banking Suite', 'Technical Analysis', 'Problem Solving', 'Programming', 'SQL']
     },
     {
-      id: 2,
-      position: 'Programmer/T24 Technical Consultant',
+      position: 'T24 Developer',
       company: 'CAZA Technology Solutions Inc.',
       duration: 'October 2022 - October 2025',
       description: 'Developed and maintained multiple client projects. Implemented new features and optimized performance for T24 core banking system',
       skills: ['Temenos T24 R13', 'Jbase', 'Web Service', 'Agile Methodologies', 'Production Support', 'Problem Solving', 'Code Optimization', 'T24 Core Update', 'Consultancy', 'Post-COB and Pre-COB Support']
     },
     {
-      id: 3,
       position: 'Freelance Web Developer',
       company: 'ArgoSquad',
-      duration: 'March 2022 - July 2022',
+      duration: 'March 2022 - October 2022',
       description: 'Built features for web applications. Collaborated with design team to implement user-friendly interfaces.',
       skills: ['HTML/CSS', 'JavaScript', 'Magento', 'Git']
     },
     {
-      id: 4,
       position: 'Intern Web Developer',
       company: 'ArgoSquad',
-      duration: 'February 2022',
+      duration: 'February 2022 - March 2022',
       description: 'Started as an intern building features for web applications. After a week of strong performance, was offered to transition to a freelance position within the team.',
       skills: ['HTML/CSS', 'JavaScript', 'Magento', 'Git']
     }
@@ -48,9 +51,9 @@ export default function WorkExperience() {
         </div>
 
         <div className="grid gap-6 grid-cols-1">
-          {experiences.map((exp) => (
+          {experiences.map((exp,cnt) => (
             <article
-              key={exp.id}
+              key={cnt}
               className={`group ${theme === 'dark' ? 'bg-gray-800 border border-gray-700' : 'bg-white border border-gray-200'} rounded-3xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 p-5 sm:p-6 ${theme === 'dark' ? 'border-l-4 border-blue-500' : 'border-l-4 border-indigo-600'}`}
             >
               <div className="flex flex-col gap-4">
